@@ -1,0 +1,31 @@
+#sample urls
+
+http://partnerapi.funda.nl/feeds/Aanbod.svc/search/
+json/c7e56d1972654b91bdd54fa12cf9d9c8/?website=funda&type=koop&
+zo=/amsterdam/&page=1&pagesize=25&projectObjectenTonen=2&objectTypenTonen=true&statistiekId=140
+
+http://partnerapi.funda.nl/feeds/Aanbod.svc/search/
+json/c7e56d1972654b91bdd54fa12cf9d9c8/?website=funda&type=huur
+&zo=/amsterdam/&page=1&pagesize=25&projectObjectenTonen=2&objectTypenTonen=true&statistiekId=140
+
+http://partnerapi.funda.nl/feeds/Aanbod.svc/search/
+json/c7e56d1972654b91bdd54fa12cf9d9c8/?website=funda&type=nieuwbouw
+&zo=/amsterdam/&page=1&pagesize=25&projectObjectenTonen=2&objectTypenTonen=true&statistiekId=140
+
+#test a few ones
+http://partnerapi.funda.nl/feeds/Aanbod.svc/search/
+json/c7e56d1972654b91bdd54fa12cf9d9c8/?website=funda&type=koop&isVerkocht=true&
+zo=/amsterdam/&page=1&pagesize=25&projectObjectenTonen=2&objectTypenTonen=true&statistiekId=140
+
+
+#last 1 day
+http://partnerapi.funda.nl/feeds/Aanbod.svc/search/json/c7e56d1972654b91bdd54fa12cf9d9c8/?website=funda&type=koop&zo=/amsterdam/3-dag&page=1&pagesize=25&projectObjectenTonen=2&objectTypenTonen=true&statistiekId=140
+
+#property page
+http://partnerapi.funda.nl/feeds/Aanbod.svc/json/detail/c7e56d1972654b91bdd54fa12cf9d9c8/koop/b9bc59b1-1661-4dbd-8ccb-ffd98f987adb/
+
+#error property page
+http://partnerapi.funda.nl/feeds/Aanbod.svc/json/detail/c7e56d1972654b91bdd54fa12cf9d9c8/koop/b780de47-8715-4726-b4e6-813802954711/
+
+#error page url from app
+http://partnerapi.funda.nl/feeds/Aanbod.svc/json/detail/c7e56d1972654b91bdd54fa12cf9d9c8/huur/b780de47-8715-4726-b4e6-813802954711/
